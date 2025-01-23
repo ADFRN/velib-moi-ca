@@ -109,6 +109,9 @@ export default function Map() {
         mapContainerStyle={{ width: '100%', height: '100vh' }}
         center={userLocation}
         options={{
+          fullscreenControl: false,
+          mapTypeControl: false,
+          gestureHandling: 'greedy',
           styles: [
             {
               featureType: 'poi',

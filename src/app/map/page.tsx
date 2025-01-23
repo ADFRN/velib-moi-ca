@@ -17,7 +17,7 @@ export default function MapPage() {
           <Map />
         </div>
       </main>
-      <footer className="flex flex-col gap-4 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
+      <footer className="flex flex-col justify-center gap-4 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
         <p className="text-xs text-gray-500 dark:text-gray-400">
           Made with ❤️ by{' '}
           <a
