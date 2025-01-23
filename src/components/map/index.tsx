@@ -112,6 +112,7 @@ export default function Map() {
           fullscreenControl: false,
           mapTypeControl: false,
           gestureHandling: 'greedy',
+          rotateControl: true,
           styles: [
             {
               featureType: 'poi',
